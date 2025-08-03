@@ -1,0 +1,13 @@
+body {
+font-family: sans-serif;
+padding: 2rem;
+background: #f4f4f4;
+}
+
+#products div {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+background: white;
+display: inline-block;
+}
