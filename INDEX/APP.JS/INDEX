@@ -1,59 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>VoltSphere - Dropshipping Electronics</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TrendyNest - Home</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-<h1>⚡ VoltSphere</h1>
-<nav>
-<a href="#">Home</a>
-<a href="#products">Products</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
+  <header>
+    <h1>TrendyNest</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
 
-<main>
-<section class="hero">
-<h2>Your source for trending electronics</h2>
-<p>Order now. We'll take care of the rest.</p>
-</section>
+  <main>
+    <section class="hero">
+      <h2>Welcome to TrendyNest</h2>
+      <p>Your favorite place for trendy electronics and home goods.</p>
+      <a href="shop.html" class="btn">Shop Now</a>
+    </section>
 
-<section id="products" class="products">
-<h3>Featured Products</h3>
-<div class="product-list">
-<div class="product">
-<img src="https://via.placeholder.com/150" alt="Smart Watch" />
-<h4>Smart Watch Pro</h4>
-<p>$49.99</p>
-<button>Add to Cart</button>
-</div>
-<div class="product">
-<img src="https://via.placeholder.com/150" alt="Wireless Earbuds" />
-<h4>Wireless Earbuds</h4>
-<p>$29.99</p>
-<button>Add to Cart</button>
-</div>
-<div class="product">
-<img src="https://via.placeholder.com/150" alt="Mini Projector" />
-<h4>Mini Projector</h4>
-<p>$89.99</p>
-<button>Add to Cart</button>
-</div>
-</div>
-</section>
+    <section class="featured-products">
+      <h3>Featured Products</h3>
+      <div class="products-grid" id="featured-products">
+        <!-- Products will be loaded here dynamically -->
+      </div>
+    </section>
+  </main>
 
-<section id="contact" class="contact">
-<h3>Contact Us</h3>
-<p>Email: support@voltsphere.com</p>
-</section>
-</main>
+  <footer>
+    <p>&copy; 2025 TrendyNest. All rights reserved.</p>
+  </footer>
 
-<footer>
-<p>&copy; 2025 VoltSphere. All rights reserved.</p>
-</footer>
+  <script src="app.js"></script>
 </body>
 </html>
